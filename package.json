@@ -1,7 +1,7 @@
 {
-  "name": "Brutalist Portfolio Website",
+  "name": "My portfolio",
   "version": "0.1.0",
-  "homepage": "https://chaquentin.github.io/porfolio_main",
+  "homepage": "https://chaquentin.github.io/porfolio",
   "private": true,
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.3",
