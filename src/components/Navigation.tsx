@@ -25,7 +25,7 @@ export function Navigation() {
         <div className="flex items-center justify-between">
           <a href="#" className="text-2xl tracking-tight">
             <span className="bg-primary text-secondary dark:bg-[#2C3E50] dark:text-secondary px-4 py-2 rounded-lg">
-              Your Name
+              Quentin Challon
             </span>
           </a>
 
