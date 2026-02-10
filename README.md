@@ -1,6 +1,6 @@
-# Brutalist Portfolio Website
+# Portfolio
 
-This is a code bundle for Brutalist Portfolio Website. The original project is available at https://www.figma.com/design/3LxfE636Vqs1vbrSBcRYbB/Brutalist-Portfolio-Website.
+This is a code repository for my personal portfolio website. It is built using React and Tailwind CSS.
 
 ## Running the code
 
