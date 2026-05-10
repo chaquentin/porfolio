@@ -27,7 +27,7 @@ export function Footer() {
               Got a project in mind? Let's create something amazing together.
             </p>
             <motion.a
-              href="mailto:your.email@example.com"
+              href="mailto:quentin.challon@epitech.eu"
               className="inline-block px-8 py-4 rounded-xl transition-all duration-300 bg-secondary dark:bg-accent text-primary dark:text-white"
               whileHover={{
                 scale: 1.05,
@@ -43,7 +43,7 @@ export function Footer() {
             <h3 className="text-2xl mb-6">Connect</h3>
             <div className="space-y-4">
               <motion.a
-                href="https://github.com"
+                href="https://github.com/chaquentin/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 text-lg transition-colors duration-300 group text-secondary"
@@ -63,7 +63,7 @@ export function Footer() {
               </motion.a>
 
               <motion.a
-                href="https://linkedin.com"
+                href="https://linkedin.com/in/quentin-challon/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 text-lg transition-colors duration-300 group text-secondary"
@@ -103,7 +103,7 @@ export function Footer() {
               </motion.a>
 
               <motion.a
-                href="mailto:your.email@example.com"
+                href="mailto:quentin.challon@epitech.eu"
                 className="flex items-center gap-4 text-lg transition-colors duration-300 group text-secondary"
                 whileHover={{ color: "#7BA5C7", x: 5 }}
               >

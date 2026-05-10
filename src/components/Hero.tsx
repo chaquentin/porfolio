@@ -36,13 +36,16 @@ export function Hero() {
               className="flex flex-wrap gap-3"
             >
               <div className="bg-accent/10 text-accent px-6 py-3 rounded-full">
-                <span>Developer</span>
+                <span>Backend</span>
               </div>
               <div className="bg-accent/10 text-accent px-6 py-3 rounded-full">
-                <span>Designer</span>
+                <span>DevOps</span>
               </div>
               <div className="bg-accent/10 text-accent px-6 py-3 rounded-full">
-                <span>Creator</span>
+                <span>Low Level</span>
+              </div>
+              <div className="bg-accent/10 text-accent px-6 py-3 rounded-full">
+                <span>AI</span>
               </div>
             </motion.div>
 
@@ -52,10 +55,9 @@ export function Hero() {
               transition={{ delay: 0.8, duration: 0.6 }}
               className="text-xl md:text-2xl max-w-3xl text-muted-foreground leading-relaxed"
             >
-              I'm a passionate developer and designer who loves creating
-              beautiful, functional experiences. I specialize in web
-              development, UI/UX design, and bringing ideas to life through
-              code.
+              Passionate about crafting robust and efficient software, I focus on 
+              back-end architecture, AI, and DevOps. My goal is to build 
+              long-term, high-quality projects through solid engineering and automation.
             </motion.p>
 
             <motion.div

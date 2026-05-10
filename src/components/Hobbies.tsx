@@ -1,66 +1,66 @@
 import { motion } from "motion/react";
-import { Camera, Code2, Gamepad2, Music, Palette, Plane } from "lucide-react";
+import { Atom, Code2, Dumbbell, Footprints, Gamepad2, Mountain, Music, Palette, Plane } from "lucide-react";
 
 const hobbies = [
   {
     id: 1,
-    name: "Photography",
+    name: "Science",
     description:
-      "Capturing moments and exploring visual storytelling through my lens.",
-    icon: Camera,
-    color: "bg-secondary/20",
-    iconColor: "text-secondary",
+      "Discovering and learning about every scientific based topic, from physics to biology.",
+    icon: Atom,
+    color: "bg-primary/10",
+    iconColor: "text-primary/10",
   },
   {
     id: 2,
-    name: "Music Production",
-    description:
-      "Creating beats and melodies in my spare time. Electronic music enthusiast.",
-    icon: Music,
-    color: "bg-accent/20",
-    iconColor: "text-accent",
-  },
-  {
-    id: 3,
     name: "Gaming",
     description:
       "Strategy games and indie titles. Love analyzing game design and mechanics.",
     icon: Gamepad2,
-    color: "bg-primary/10",
+    color: "bg-secondary/20",
     iconColor: "text-primary",
   },
   {
-    id: 4,
-    name: "Digital Art",
-    description:
-      "Experimenting with digital illustration and graphic design concepts.",
-    icon: Palette,
-    color: "bg-accent/20",
-    iconColor: "text-accent",
-  },
-  {
-    id: 5,
-    name: "Open Source",
-    description:
-      "Contributing to open-source projects and building tools for developers.",
-    icon: Code2,
-    color: "bg-secondary/20",
-    iconColor: "text-secondary",
-  },
-  {
-    id: 6,
-    name: "Travel",
+    id: 3,
+    name: "Travelling",
     description:
       "Exploring new places, cultures, and finding inspiration around the world.",
     icon: Plane,
     color: "bg-accent/20",
     iconColor: "text-accent",
   },
+  {
+    id: 4,
+    name: "Sports",
+    description:
+      "More than climbing and running, I also enjoy playing every kind of sport",
+    icon: Dumbbell,
+    color: "bg-primary/10",
+    iconColor: "text-primary/10",
+  },
+  {
+    id: 5,
+    name: "Running",
+    description:
+      "Running is my go-to for clearing my mind, feeling refreshed and energized.",
+    icon: Footprints,
+    color: "bg-accent/20",
+    iconColor: "text-accent",
+  },
+  {
+    id: 6,
+    name: "Climing",
+    description:
+      "Mostly bouldering indoor but also outdoor. Both practicing and watching climbing competitions.",
+    icon: Mountain,
+    color: "bg-accent/20 dark:bg-accent/10",
+    iconColor: "text-accent",
+  }
 ];
 
 export function Hobbies() {
   return (
-    <section id="hobbies" className="min-h-screen p-6 md:p-12 py-24">
+    <section id="hobbies" className="scroll-mt-20 min-h-screen p-6 md:p-12 py-24">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

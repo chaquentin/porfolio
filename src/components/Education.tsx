@@ -5,27 +5,31 @@ const education = [
     id: 1,
     degree: "Master of Science",
     field: "Computer Science",
-    school: "University Name",
-    year: "2022 - 2024",
+    school: "Epitech Toulouse",
+    year: "2024 - 2026",
     description:
-      "Specialized in Machine Learning and Human-Computer Interaction. GPA: 3.9/4.0",
+      "Focus on advanced software engineering, AI, and DevOps practices. Developped during these 2 years an AI-powered project for language learning.",
   },
   {
     id: 2,
+    degree: "Exchange Year",
+    field: "Computer Science",
+    school: "Chung-Ang University, South Korea",
+    year: "2024 - 2025",
+    description:
+      "Studied software development and AI in an international environment, gaining cross-cultural experience.",
+  },
+  {
+    id: 3,
     degree: "Bachelor of Science",
     field: "Software Engineering",
-    school: "University Name",
-    year: "2018 - 2022",
+    school: "Epitech Toulouse",
+    year: "2021 - 2024",
     description:
-      "Focus on Full-Stack Development and Software Architecture. Graduated with Honors.",
+      "Start with low level programming and system architecture, then moved to software development and DevOps.",
   },
 ];
 
-const certifications = [
-  "AWS Certified Developer",
-  "Google UX Design Professional",
-  "Meta Front-End Developer",
-];
 
 export function Education() {
   return (
@@ -76,32 +80,6 @@ export function Education() {
             </motion.div>
           ))}
         </div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="bg-accent rounded-2xl p-8 md:p-12 shadow-lg"
-        >
-          <h3 className="text-2xl md:text-3xl mb-8 text-accent-foreground">
-            Certifications
-          </h3>
-          <div className="grid md:grid-cols-3 gap-4">
-            {certifications.map((cert, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, scale: 0.9 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1, duration: 0.4 }}
-                className="bg-card p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200"
-              >
-                <div className="text-lg">{cert}</div>
-              </motion.div>
-            ))}
-          </div>
-        </motion.div>
       </div>
     </section>
   );
